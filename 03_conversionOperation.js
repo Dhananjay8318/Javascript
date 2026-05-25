@@ -21,3 +21,24 @@ console.log(typeof score)
 
 // ""=> false
 // "dhananjay"=> true
+
+
+
+// ****************operations********************
+ let value=4
+ let negvalue=-value
+ console.log(negvalue)
+
+
+ let str1="dhananjay"
+ let str2= "yadav"
+ let str3=str1+" "+str2
+ console.log(str3)
+
+// depend on which come first if integer come first then we add else string come first the we write same as same
+
+ console.log("1"+2)
+ console.log(1+"2")
+ console.log("1"+2+2)
+ console.log(1+2+"2")
+
