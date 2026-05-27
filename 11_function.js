@@ -45,3 +45,23 @@
  }
  console.log(login("dhananjay"))
   console.log(login())
+
+
+//when we add in cart the eassy to calculate total amount
+
+  function calculateCartPrice(...num1){//... rest operator or spread   
+      return num1
+  }
+  console.log(calculateCartPrice(200,400,800)) // [ 200, 400, 800 ]
+
+//we give object into a function
+  const user={
+   username:"dhananjay",
+   price:190
+  }
+
+  function handleObj(anyobject){
+   console.log(`username is ${anyobject.username} and price is ${anyobject.price} `)
+  }
+
+  handleObj(user)
