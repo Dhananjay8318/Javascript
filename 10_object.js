@@ -60,3 +60,21 @@ console.log(Object.values(tinderUser))
 
 // entries is give a in a array form key and value in array 
 console.log(Object.entries(tinderUser)) //[ [ 'id', '1234abc' ], [ 'name', 'shaimi' ], [ 'isLogin', false ] ]
+
+
+
+//Destructureing 
+
+const course={
+    courseName:"javascript",
+    price:9000,
+    courseInst:"Dhananjay"
+}
+//when we want to print 1 thing more time then we write 
+const {courseInst} =course
+console.log(courseInst)
+
+//Destructureing   => const {courseInst:Inst} =course
+
+const {courseInst:Inst} =course
+console.log(Inst)
